@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Desenvolvimento Web - TP</title>
-    <!-- ALUNO VICTOR HENRIQUE - RA 166024-->
+    <!-- ALUNO VICTOR HENRIQUE  - RA 166024-->
+    <!-- ALUNO LEONARDO RIBEIRO - RA 158912-->
+    <!-- ALUNO IVO PRADO        - RA 122589-->
     <link href="css/estilo.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <span id='topo'></span>
     <h1> Quem somos?</h1>
-  
-        <img src="imagens/profile.png" alt="Victor Henrique - RA 166024">
-    <h2> Victor Henrique Azevedo dos Santos (RA 166024) </h2>
+        <div id="perfil">
+        <a href="#victor"><img src="imagens/victor-henrique.png" alt="Victor Henrique - RA 166024"></a>
+        <a href="#ivo"><img src="imagens/ivo-prado.png" alt="Ivo Prado - RA 122589"></a>
+        <a href="#leo"><img src="imagens/leo-ribeiro.png" alt="Leonardo José Storino Ribeiro - RA 158912"></a>
+        </div>
+    <h2 id="victor" class="aluno">Victor Henrique Azevedo dos Santos - RA 166024</h2>
     <p> Estou cursando Sistemas de Informação, pois acredito que através da tecnologia podemos melhorar o mundo. As matérias que mais me chamam a atenção são: Linguagem de Programação, Desenvolvimento de Algoritmo, Arquitetura de Computadores e Desenvolvimento Web.</p>
     <table class="bidi4">
         <tr>
@@ -31,15 +37,67 @@
 
       <h3>Meus Contatos</h3>
       <ul>
-          <li><a href="https://www.facebook.com/victorhenrique96">Facebook</a></li>
+          <li class="facebook"><a href="https://www.facebook.com/victorhenrique96">Facebook</a></li>
           <li><a href="https://www.linkedin.com/in/victorhenrique96/">Linkedin</a></li>
           <li><a href="https://github.com/victorkronicos">GitHub</a></li>
           <li><a href="mailto:victor_henrique@live.com">E-mail</a></li>
       </ul>
 
+      <h2 id="ivo" class="aluno2">Ivo Prado Pereira Filho - RA 122589</h2>
+    <p> Estou cursando Sistemas de Informação afim de adiquirir novos conhecimentos na área da tecnologia.</p>
+    <table class="bidi4">
+        <tr>
+          <td class="ciel3">Onde você fez o Ensino Médio?</td>
+          <td>Colégio Santa Cecília</td>
+        </tr>
+        <tr>
+          <td class="ciel3">Como conheceu o nosso curso?</td>
+          <td>Redes Sociais</td>
+        </tr>
+        <tr>
+            <td class="ciel3">Qual a sua cidade?</td>
+            <td>Santos-SP</td>
+        </tr>
+      </table>
+
+      <h3>Meus Contatos</h3>
+      <ul>
+          <li><a href="https://www.facebook.com/ivoprado.pereirafilho">Facebook</a></li>
+          <li><a href="https://www.linkedin.com/in/ivo-prado-pereira-filho-aa248198/">Linkedin</a></li>
+          <li><a href="mailto:ivo.prado@hotmail.com">E-mail</a></li>
+      </ul>
+
+      <h2 id="leo" class="aluno3">Leonardo José Storino Ribeiro - RA 158912</h2>
+      <p> Comecei o curso de Sistemas de Informação pelo meu apego e gosto ao mundo da tecnologia. Hoje acredito que, com ela, podemos melhorar significativamente a qualidade de vida de todos da nossa e das próximas gerações. Matérias que mais me chamam atenção: Linguagens de Programação, Desenv. de Algoritmo, Desenv. Web.</p>
+      <table class="bidi4">
+          <tr>
+            <td class="ciel3">Onde você fez o Ensino Médio?</td>
+            <td>Colégio Rita de Cássia</td>
+          </tr>
+          <tr>
+            <td class="ciel3">Como conheceu o nosso curso?</td>
+            <td>Redes Sociais</td>
+          </tr>
+          <tr>
+              <td class="ciel3">Qual a sua cidade?</td>
+              <td>Santos-SP</td>
+          </tr>
+        </table>
+  
+        <h3>Meus Contatos</h3>
+        <ul>
+            <li><a href="https://www.facebook.com/leo.ribz">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/leonardo-ribeiro-777919192/">Linkedin</a></li>
+            <li><a href="mailto:contato.ribeiroleo@icloud.com">E-mail</a></li>
+        </ul>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="rodape">
       <h2>Cadastre-se</h2>
-        <form>
-      <p> E-mail <input type="text" > <button id="submit">Enviar</button></p>
+        <form action="https://professores.unisanta.br/sobrino/dw1/scripts/form.php" method="post">
+      <p> <label for="email">E-mail</label> <input id="email" name="email" type="email" size="25"> <button class="enviar">Enviar</button></p>
         </form>
+        <img src="imagens/i_love_validator.png" alt="W3C Validator"><br>
+        <a href='#topo'>Voltar ao topo</a>  | <a href="https://github.com/victorkronicos/dw-tp">Acessar repositório</a>
+        </div>       
 </body>
 </html>
